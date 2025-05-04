@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit5-05-HTML-MDL -->
+<!-- ICS2O-Unit5-06-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Find the triangle, with PHP" />
+  <meta name="description" content="Multiplying with while loops, with PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="domenic dangelo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +15,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>Find the triangle, with PHP</title>
+  <title>Multiplying with while loops, with PHP</title>
 </head>
 
 <body>
@@ -23,12 +23,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Find the triangle, with PHP</span>
+        <span class="mdl-layout-title">Multiplying with while loops, with PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/Triangles.png" alt="triangles" />
+        <img src="./images/multiplication_chart.jpeg" alt="multiplication chart" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
@@ -41,7 +41,7 @@
           // Process
           while ($firstUserInput >= 1) {
             $answer = $answer + $secondUserInput;
-            $firstUserInput --;
+            $firstUserInput--;
           }
           // output
           echo "Your number is: " . $answer;
